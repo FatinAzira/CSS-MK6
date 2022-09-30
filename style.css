@@ -1,0 +1,33 @@
+h1 {                                       /*Type Properties*/
+     color: blueviolet;
+     text-align: center;
+     background-color: burlywood;
+   }
+h2 {
+    letter-spacing: 4px;
+   }
+*  {                                       /* Background properties */
+        color: black;
+        font-size: 3
+        0pt;
+    }
+    body { 
+        background-color: lightblue; 
+    
+    }
+div{                                       /*bo*/
+        width: 300px;
+        padding: 50px;
+    }
+div {
+    border: solid 2px palevioletred;
+}
+
+@media screen and (max-width: 600px) {                 /* Media */
+    .column {
+      width: 100%;
+    }
+    img {
+        width: 200px;
+    }
+    
